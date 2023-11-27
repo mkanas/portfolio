@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="bg-purple-700 h-full pt-12">
+    <footer className="bg-purple-700 w-full h-full pt-12">
       <div className="container ">
         <div className="sm:flex items-center  md:gap-8">
           <div className="w-[300px]  sm:w-1/2">

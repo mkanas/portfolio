@@ -44,7 +44,7 @@ const ProjectPage = () => {
               features a video player.
             </p>
             <div className="flex justify-center items-center font-semibold gap-3">
-              <p>Next Js</p>
+              <p>NextJs</p>
               <p>TypeScript</p>
               <p>Prisma</p>
               <p>MongoDB</p>
@@ -98,7 +98,7 @@ const ProjectPage = () => {
               videos, along with search functionality and pagination features.
             </p>
             <div className="flex justify-center items-center font-semibold gap-3">
-              <p>Next Js</p>
+              <p>NextJs</p>
               <p>JavaScript</p>
               <p>RapidAPI</p>
               <p>Tailwind</p>
@@ -152,7 +152,7 @@ const ProjectPage = () => {
               cart, and various other functionalities.
             </p>
             <div className="flex justify-center items-center font-semibold gap-3">
-              <p>Next Js</p>
+              <p>NextJs</p>
               <p>TypeScript</p>
               <p>Firebase</p>
               <p>Redux Toolkit</p>
