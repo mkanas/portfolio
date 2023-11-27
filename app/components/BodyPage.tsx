@@ -29,6 +29,18 @@ const BodyPage = () => {
       id: 6,
       href: "/assets/images/skills/react.png",
     },
+    {
+      id: 7,
+      href: "/assets/images/skills/git.png",
+    },
+    {
+      id: 8,
+      href: "/assets/images/skills/prisma.png",
+    },
+    {
+      id: 9,
+      href: "/assets/images/skills/nextjs.png",
+    },
   ];
   return (
     <main id="bodypage">
@@ -122,9 +134,9 @@ const BodyPage = () => {
       </div>
       <section className="md:flex justify-start items-center md:px-0 px-4 py-4 md:ml-[280px] mt-9  ">
         <h2 className="pr-[40px] font-[800]">Tech Stack | </h2>
-        <div className="flex mt-4  gap-6 md:gap-10">
+        <div className="mt-4 grid grid-cols-5 gap-6 md:gap-10">
           {icons.map((item) => (
-            <ul key={item.id} className="p-1  ">
+            <ul key={item.id} className="p-1    ">
               <li key={item.id}>
                 <Image
                   priority={false}
