@@ -29,7 +29,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          <div className="w-full sm:w-1/2  ">
+          <div className="w-full ">
             <div className="flex items-center text-white justify-center gap-4 flex-wrap ">
               <div className="pl-[38px]">
                 <p className="text-gray-300 md:leading-7 flex justify-start gap-2 md:gap-4 items-center mt-4 sm:mt-0">

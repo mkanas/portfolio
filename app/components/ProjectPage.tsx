@@ -127,7 +127,7 @@ const ProjectPage = () => {
         </section>
 
         <section
-          className="md:flex mt-12 justify-center 
+          className="md:flex mt-12 w-full justify-center 
         p-2  items-center "
         >
           <div
@@ -155,7 +155,7 @@ const ProjectPage = () => {
               <p>NextJs</p>
               <p>TypeScript</p>
               <p>Firebase</p>
-              <p>Redux Toolkit</p>
+              <p>Redux</p>
             </div>
             <div className="flex justify-center my-3 items-center gap-10">
               <Link
