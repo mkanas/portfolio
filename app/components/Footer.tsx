@@ -9,9 +9,9 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <footer className="bg-purple-700 w-full h-full pt-12">
-      <div className="container ">
-        <div className="sm:flex items-center  md:gap-8">
-          <div className="w-[300px]  sm:w-1/2">
+      <div className="md:flex justify-between items-center md:gap-8">
+        <div className="flex md:justify-center justify-start pl-2 items-center">
+          <div className=" w-[80%]">
             <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem] ">
               Do you want to make beautiful products?
             </h2>
@@ -28,48 +28,48 @@ const Footer = () => {
               </button>
             </Link>
           </div>
+        </div>
 
-          <div className="w-full ">
-            <div className="flex items-center text-white justify-center gap-4 flex-wrap ">
-              <div className="pl-[38px]">
-                <p className="text-gray-300 md:leading-7 flex justify-start gap-2 md:gap-4 items-center mt-4 sm:mt-0">
-                  <BsTelephone /> +62 82214561307
-                </p>
-                <p className="text-gray-300 md:leading-7 flex justify-start gap-2 md:gap-4 items-center mt-4 sm:mt-0">
-                  <MdEmail /> muhammad.khairul.anas97@gmail.com
-                </p>
-              </div>
+        <div className="w-full ">
+          <div className="flex items-center text-white md:justify-center justify-start  mt-2 gap-4 flex-wrap ">
+            <div className="pl-2 md:sm:pl-[68px]">
+              <p className="text-gray-300 md:leading-7 flex leading-5 justify-start gap-2 md:gap-4 items-center mt-4 sm:mt-0">
+                <BsTelephone /> +62 82214561307
+              </p>
+              <p className="text-gray-300 md:leading-7 flex leading-5  justify-start gap-2 md:gap-4 items-center mt-4 sm:mt-0">
+                <MdEmail /> muhammad.khairul.anas97@gmail.com
+              </p>
             </div>
+          </div>
 
-            <div className="flex items-center w-full justify-center gap-4 flex-wrap  mt-10 ">
-              <span className="text-gray-300 font-[600] text-white">
-                Follow Me:
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#d6dbe9] p-4 hover:bg-[#ecddecbb]  flex items-center justify-center  rounded-[50px] cursor-pointer text-center">
-                <a
-                  href="https://github.com/mkanas"
-                  className="text-gray-300  font-[500] text-[18px]"
-                >
-                  <BsGithub />
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#d6dbe9] flex items-center justify-center p-4 hover:bg-[#ecddecbb]  rounded-[50px] cursor-pointer text-center">
-                <a
-                  href="https://www.linkedin.com/in/muhammad-khairul-anas-59a226215/"
-                  className="text-gray-300 font-[500]  text-[18px]"
-                >
-                  <BsLinkedin />
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#d6dbe9] p-4 hover:bg-[#ecddecbb] flex items-center justify-center rounded-[50px] cursor-pointer text-center">
-                <a
-                  href="https://www.instagram.com/"
-                  className="text-gray-300 font-[500]  text-[18px]"
-                >
-                  <BsInstagram />
-                </a>
-              </span>
-            </div>
+          <div className="flex items-center w-full justify-center gap-4 flex-wrap  mt-10 ">
+            <span className="text-gray-300 font-[600] text-white">
+              Follow Me:
+            </span>
+            <span className="w-[35px] h-[35px] bg-[#d6dbe9] p-4 hover:bg-[#ecddecbb]  flex items-center justify-center  rounded-[50px] cursor-pointer text-center">
+              <a
+                href="https://github.com/mkanas"
+                className="text-gray-300  font-[500] text-[18px]"
+              >
+                <BsGithub />
+              </a>
+            </span>
+            <span className="w-[35px] h-[35px] bg-[#d6dbe9] flex items-center justify-center p-4 hover:bg-[#ecddecbb]  rounded-[50px] cursor-pointer text-center">
+              <a
+                href="https://www.linkedin.com/in/muhammad-khairul-anas-59a226215/"
+                className="text-gray-300 font-[500]  text-[18px]"
+              >
+                <BsLinkedin />
+              </a>
+            </span>
+            <span className="w-[35px] h-[35px] bg-[#d6dbe9] p-4 hover:bg-[#ecddecbb] flex items-center justify-center rounded-[50px] cursor-pointer text-center">
+              <a
+                href="https://www.instagram.com/"
+                className="text-gray-300 font-[500]  text-[18px]"
+              >
+                <BsInstagram />
+              </a>
+            </span>
           </div>
         </div>
       </div>
