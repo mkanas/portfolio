@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex items-center w-full justify-center gap-4 flex-wrap  mt-10 ">
+          <div className="flex pl-2  items-center w-full md:justify-center justify-start gap-4 flex-wrap  my-6 ">
             <span className="text-gray-300 font-[600] text-white">
               Follow Me:
             </span>

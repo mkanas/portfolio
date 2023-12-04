@@ -8,7 +8,7 @@ const ProjectPage = () => {
   return (
     <main
       id="projects"
-      className="md:flex md:py-[100px] justify-center px-2 w-full h-full"
+      className="md:flex md:py-[50px] justify-center px-2 w-full h-full"
     >
       <div className="md:w-[850px]  md:ml-[105px] h-full ">
         <h1 className="font-semibold text-[13px] my-2 text-[#37bd3e] uppercase">

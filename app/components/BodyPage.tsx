@@ -45,7 +45,7 @@ const BodyPage = () => {
   return (
     <main id="bodypage">
       <div className=" min-h-full flex  md:flex md:pt-20 pt-14 justify-center items-center relative w-full">
-        <div className="md:flex md:w-[850px] md:px-0 px-4 w-full justify-center">
+        <div className="md:flex md:w-[850px]  md:px-0 px-4 w-full justify-center">
           <section className="md:w-[50%]  flex  justify-center items-center">
             <div className="">
               <h1 className="font-[900] leading-[45px] text-[36px]">
@@ -132,22 +132,24 @@ const BodyPage = () => {
           </section>
         </div>
       </div>
-      <section className="md:flex justify-start items-center md:px-0 px-4 py-4 md:ml-[280px] mt-9  ">
-        <h2 className="pr-[40px] font-[800]">Tech Stack | </h2>
-        <div className="mt-4 grid grid-cols-5 gap-6 md:gap-10">
-          {icons.map((item) => (
-            <ul key={item.id} className="p-1    ">
-              <li key={item.id}>
-                <Image
-                  priority={false}
-                  src={item.href}
-                  alt=""
-                  width={30}
-                  height={30}
-                />
-              </li>
-            </ul>
-          ))}
+      <section className="flex justify-center items-center px-4 py-4 mt-9">
+        <div className="p-5 w-full  md:w-[800px]">
+          <h2 className="pr-[40px] font-[800]">Tech Stack | </h2>
+          <div className="mt-4 md:flex grid grid-cols-5  md:justify-start md:items-center gap-6">
+            {icons.map((item) => (
+              <ul key={item.id} className="p-1">
+                <li key={item.id}>
+                  <Image
+                    priority={false}
+                    src={item.href}
+                    alt=""
+                    width={30}
+                    height={30}
+                  />
+                </li>
+              </ul>
+            ))}
+          </div>
         </div>
       </section>
     </main>

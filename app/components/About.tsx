@@ -6,7 +6,7 @@ const About = () => {
   return (
     <main
       id="about"
-      className="flex h-full w-full relative py-[120px] md:pb-[150px] md:pt-[170px] justify-center"
+      className="flex h-full w-full relative py-[120px] md:py-[100px]  justify-center"
     >
       <div className="md:flex justify-center items-center w-full md:gap-10 pr-8 md:ml-12 pl-4 md:p-8 md:w-[850px]">
         <section className="md:w-[55%] w-full relative">

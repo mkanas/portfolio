@@ -88,13 +88,13 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`right-0 bg-white bg-opacity-70 text-sm h-screen z-20 p-3 w-[35%] absolute transition-all ease-in duration-300 font-font-family ${
+        className={`right-0 bg-white  text-sm h-screen z-20 p-3 w-[35%] absolute transition-all ease-in duration-300 font-font-family ${
           navbar
             ? "top-[55px] opacity-100 "
             : "top-[-1490px] md:opacity-100 opacity-0"
         } `}
       >
-        <div className="mt-[190px] text-center  bg-opcaity-70 leading-8">
+        <div className="mt-[190px] text-center  leading-8">
           {navLinks.map((item, index) => (
             <div key={index}>
               <Link
@@ -102,7 +102,7 @@ const Navbar = () => {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={10}
+                offset={-50}
                 duration={500}
               >
                 <p>{item.name}</p>
