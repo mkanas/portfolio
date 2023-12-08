@@ -17,10 +17,6 @@ const About = () => {
             width={500}
             height={500}
           />
-          <div className="absolute -bottom-6 -right-6 w-[170px] h-[170px] border-[2px] border-black rounded-[50%] flex justify-center items-center bg-white">
-            <div className="absolute w-[100px] h-[100px] bg-cover rounded-[50%] filter brightness-150 contrast-150 bg-[url('/assets/images/services/mid.png')]"></div>
-            <div className="font-[50px] ">{<RotatingText />}</div>
-          </div>
         </section>
         <section className="md:w-1/2 md:pt-0  pt-7">
           <h2 className="font-[800] uppercase text-[#37bd3e] text-[13px]">
