@@ -54,7 +54,7 @@ const BodyPage = () => {
               <div>
                 <p className="mt-4">
                   Hi, i am Muhammad Khairul Anas. A passionate Front-End
-                  Developer based in Bandung, Indonesia. 📍
+                  Developer based in Banda Aceh, Indonesia. 📍
                 </p>
 
                 <div className="flex gap-3 mt-4 ">
