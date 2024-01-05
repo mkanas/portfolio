@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import RotatingText from "./text/RotatingText";
 
 const About = () => {
   return (
@@ -23,7 +22,7 @@ const About = () => {
             About Me
           </h2>
           <h1 className="font-bold mt-1 text-[18px] leading-6">
-            A dedicated Front-End Developer based in Bandung, Indonesia
+            A dedicated Front-End Developer based in Banda Aceh, Indonesia
           </h1>
           <p className="mt-1 text-[13px] leading-[19px] text-justify">
             As a junior Front-End Developer, I possess an impressive arsenal of
